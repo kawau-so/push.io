@@ -16,7 +16,7 @@ $webPush = new \Minishlink\WebPush\WebPush([
 // push通知認証用のデータ
 $subscription = \Minishlink\WebPush\Subscription::create([
     // ↓検証ツール > console に表示された endpoint URL を入力
-    'endpoint' => 'https://〇〇〇〇〇〇〇〇',
+    'endpoint' => 'https://fcm.googleapis.com/fcm/send/BA89XpnaBVXLveI886L6CODY6kdJqwIu-xdnxThTpPm9IFmjIqtdJ1wK6h4PM8xZmQjtCsTIw3dAaQ-2gNEQxjs',
     // ↓検証ツール > console に表示された push_public_key を入力
     'publicKey' => '△△△△△△△△△△△△',
     // ↓検証ツール > console に表示された push_auth_token を入力
