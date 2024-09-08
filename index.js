@@ -25,7 +25,7 @@ navigator.serviceWorker.ready.then((registration) => {
     // pushサーバーに当ブラウザの存在を知らせ、認証を受ける
     registration.pushManager.getSubscription().then((subscription) => {
         // ↓後述で生成する公開鍵の文字列を入力する
-        let server_public_key = "xxxxxxxxxxxxxxxx";
+        let server_public_key = "BA89XpnaBVXLveI886L6CODY6kdJqwIu-xdnxThTpPm9IFmjIqtdJ1wK6h4PM8xZmQjtCsTIw3dAaQ-2gNEQxjs";
         // 呪文のような関数を用いて、公開鍵をpushサーバーが要求する認証用キーにフォーマットする
         server_public_key = urlBase64ToUint8Array(server_public_key);
         // pushサーバーに認証リクエストを送る
